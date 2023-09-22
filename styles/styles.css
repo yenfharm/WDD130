@@ -31,7 +31,7 @@ main {
 }
 
 aside {
-    width: 31.6rem;
+    width: 12.5rem;
     margin: 1rem;
     border: 1px; color: rgb(0, 0, 0); /* 1 */
     padding: 1rem;
@@ -44,7 +44,7 @@ aside h2, p {
 }
 
 aside img {
-    width: 500px;
+    width: 200px;
     height: auto;
 }
 
