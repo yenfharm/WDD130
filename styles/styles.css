@@ -1,5 +1,5 @@
 nav {
-    background-color: rgb(75, 151, 151);
+    background-color: rgb(6, 187, 197);
     padding: 10px;
 }
 
@@ -13,6 +13,7 @@ h1 {
     color: steelblue
 }
 
+
 img {
     width: 150px;
     height: auto;
@@ -22,5 +23,33 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 31.6rem;
+    margin: 1rem;
+    border: 1px; color: rgb(0, 0, 0); /* 1 */
+    padding: 1rem;
+    background-color: rgb(6, 187, 197);
+    color:rgb(0, 0, 0);
+}
+
+aside h2, p {
+    text-align: center;
+}
+
+aside img {
+    width: 500px;
+    height: auto;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px; color: blue;
+    text-align: center;
 }
