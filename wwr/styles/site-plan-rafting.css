@@ -16,20 +16,24 @@
 }
 
 body{
-    font-family: var(--paragraphFont);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
     text-align: center;   
 }
 
+h1,div{
+    color: var(--accent1-color);
+}
+
 h2{
-    font-family: var(--headingFont);
-    color: var(--accent1Color);
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
 }
 
 header{
     padding: 20px;
-    background-color: var(--navHoverBackgroundColor);
+    background-color: var(--nav-hover-background-color);
 }
 
 p{
@@ -37,24 +41,24 @@ p{
 }
 
 nav{
-    background-color: var(--navBackgroundColor);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
 }
 
 nav a{
     display: inline;
-    color: var(--secondaryColor);
+    color: var(--secondary-color);
     text-decoration: none;
     padding: 1rem;
 
 }
 
 nav a:link, nav a:visited {
-    color: var(--navHoverLinkColor);
+    color: var(--accent2-Color);
 }
 
 nav a:hover {
-    color: var(--primaryColor);
-    background-color: var(--accent2Color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--accent2-color);
 
 }
