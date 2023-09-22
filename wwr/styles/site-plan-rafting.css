@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lobster&display=swap');
+
+:root{
+
+    --primaryColor: #a2d2ff;
+    --secondaryColor: #14213d;
+    --accent1Color: #c1121f;
+    --accent2Color: #fb8b24;
+
+    --headingFont: 'Lobster', cursive;
+    --paragraphFont: 'Black Ops One', cursive;
+
+    --navBackgroundColor: #3a86ff;
+    --navLinkColor: #000000;
+    --navHoverLinkColor: #ffafcc;
+    --navHoverBackgroundColor: #495057;
+}
+
+body{
+    font-family: var(--paragraphFont);
+    max-width: 960px;
+    padding: 20px;
+    text-align: center;   
+}
+
+h2{
+    font-family: var(--headingFont);
+    color: var(--accent1Color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--navHoverBackgroundColor);
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--navBackgroundColor);
+    font-size: 1.2rem;
+}
+
+nav a{
+    display: inline;
+    color: var(--secondaryColor);
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:link, nav a:visited {
+    color: var(--navHoverLinkColor);
+}
+
+nav a:hover {
+    color: var(--primaryColor);
+    background-color: var(--accent2Color);
+
+}
