@@ -4,16 +4,16 @@
 
     --primary-color: #a2d2ff;
     --secondary-color: #14213d;
-    --accent1Color: #c1121f;
-    --accent2Color: #fb8b24;
+    --accent1-color: #c1121f;
+    --accent2-Color: #fb8b24;
 
-    --headingFont: 'Lobster', cursive;
-    --paragraphFont: 'Black Ops One', cursive;
+    --heading-font: 'Lobster', cursive;
+    --paragraph-font: 'Black Ops One', cursive;
 
-    --navBackgroundColor: #3a86ff;
-    --navLinkColor: #000000;
-    --navHoverLinkColor: #ffafcc;
-    --navHoverBackgroundColor: #495057;
+    --nav-background-color: #3a86ff;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #ffafcc;
+    --nav-hover-background-color: #495057;
 }
 
 body{
