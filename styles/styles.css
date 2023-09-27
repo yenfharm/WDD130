@@ -26,6 +26,7 @@ main img {
     border: 1px solid rgb(10, 96, 166);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    position: relative;
 }
 
 p {
