@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Croissant+One&display=swap');
+
+:root {
+    --firstColor: #3a86ff;
+    --secondColor: #14213d;
+    --thirdColor: #9a031e;
+
+    --primaryFont: 'Black Ops One', cursive;
+    --secondaryFont: 'Croissant One', cursive;
+
+    --backgroundColor: #fb6f92;
+}
+
+main {
+    color: var(--backgroundColor);
+    font-family: var(--primaryFont);
+}
+
+main img {
+    width: 20rem;
+}
+
+main p {
+    color: var(--secondColor);
+}
+
+header nav a:hover {
+    color:var(--firstColor);
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
