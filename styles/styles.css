@@ -6,9 +6,10 @@
 
 nav {
     background-color: rgb(17, 157, 164);
-    padding: 10px;
+    padding: 1rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
@@ -31,7 +32,7 @@ h1 {
 
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid rgb(10, 96, 166);
     padding: 2px;
@@ -58,8 +59,8 @@ aside {
     color:rgb(0, 0, 0);
     position: relative;
 
-    grid-column: 1/2;
-    grid-row: 1/2;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 aside h2{
@@ -81,33 +82,26 @@ footer {
 }
 
 /* Class Selectors */
-
+ 
 .box {
     margin: 1rem;
     border: 2px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    background-color: #06bbc5;
     color: rgb(0, 0, 0);
-
 }
 
-header, .grid, footer{
+
+header, footer{
     margin: 0 auto;
 }
 
 .grid {
     display: grid;
-    align-items: center;
+    justify-items: center;
+    justify-content: center;
 }
 
 main {
     grid-column: 2/3;
     margin: 1rem;
 }
-
-/* aside{
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-} */
