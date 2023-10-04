@@ -76,7 +76,6 @@ aside img {
 }
 
 footer {
-    margin-top: 1em;
     border-top: 1px; color: blue;
     text-align: center;
     position: fixed;
@@ -97,7 +96,6 @@ footer {
 
 header, .grid, footer{
     display: grid;
-    justify-items: center;
     justify-content: center;
     justify-items: center;
     align-items: center;
