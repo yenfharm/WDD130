@@ -5,14 +5,23 @@
 }
 
 nav {
-    background-color: rgb(6, 187, 197);
+    background-color: rgb(17, 157, 164);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-decoration: none;
     display: block;
-    padding: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+header nav a:hover {
+    color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -36,9 +45,9 @@ p {
     margin: 1rem;
 }
 
-main {
+/* main {
     max-width: 840px;
-}
+} */
 
 aside {
     width: 12.5rem;
@@ -48,6 +57,9 @@ aside {
     background-color: #06bbc5;
     color:rgb(0, 0, 0);
     position: relative;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2{
@@ -78,3 +90,24 @@ footer {
     color: rgb(0, 0, 0);
 
 }
+
+header, .grid, footer{
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+/* aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+} */
