@@ -79,6 +79,10 @@ footer {
     margin-top: 1em;
     border-top: 1px; color: blue;
     text-align: center;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
 }
 
 /* Class Selectors */
@@ -91,14 +95,13 @@ footer {
 }
 
 
-header, footer{
-    margin: 0 auto;
-}
-
-.grid {
+header, .grid, footer{
     display: grid;
     justify-items: center;
     justify-content: center;
+    justify-items: center;
+    align-items: center;
+   
 }
 
 main {
