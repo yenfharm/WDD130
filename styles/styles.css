@@ -28,6 +28,9 @@ header nav a:hover {
 h1 {
     color: steelblue;
     margin: 1rem;
+    border-bottom: 1px solid steelblue;
+    text-align: center;
+
 }
 
 
@@ -76,12 +79,13 @@ aside img {
 }
 
 footer {
-    border-top: 1px; color: blue;
+    color: blue;
     text-align: center;
     position: fixed;
     left: 0;
     width: 100%;
     bottom: 0;
+    border-top: 1px solid steelblue;
 }
 
 /* Class Selectors */
@@ -105,4 +109,9 @@ header, .grid, footer{
 main {
     grid-column: 2/3;
     margin: 1rem;
+}
+
+header, footer{
+    max-width: auto;
+    margin: 0 auto;
 }
