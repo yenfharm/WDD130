@@ -59,16 +59,16 @@ header nav a {
 }
 
 .hero {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin-bottom: 15px;
     background-image: url(../images/image1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    height: 570px;
+    position: relative;
 }
 
 .hero > .title {
@@ -76,20 +76,31 @@ header nav a {
     text-align: center;
     width: 100%;
     line-height: 5rem;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     margin-bottom: 2rem;
+    position: absolute;
+    top: 1rem;
 }
 
 .hero > article {
     background-color: rgb(25 89 169 / 60%);
     width: 80%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
     padding: 2rem 1rem;
     margin-bottom: 6rem;
+    position: relative;
+    height: 270px;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.hero > article > p {
+    width: 50%;
+    float: left;
+}
+.hero > article > img {
+    float: right;
+    width: 50%;
 }
 
 .section, h2{
