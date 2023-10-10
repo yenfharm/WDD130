@@ -110,8 +110,3 @@ main {
     grid-column: 2/3;
     margin: 1rem;
 }
-
-header, footer{
-    max-width: auto;
-    margin: 0 auto;
-}
