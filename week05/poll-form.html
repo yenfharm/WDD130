@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 130 / HTML Form - User Poll</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     
@@ -18,25 +18,43 @@
         <form>
             <fieldset>
                 <legend>Contact information</legend>
-                <label for="fullname">Full Name</label>
-                <input type="text" id="fullname" name="fullname">
-                <Label for="email">Email</Label>
-                <input type="email" id="useremail" name="useremail">
+
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                
+                <div class="form-item column2">
+                    <Label for="email">Email</Label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+
             </fieldset>
 
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser">What is your favorite browser?</label>
-                <select id="browser" name="browser">
+
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select id="browser" name="browser">
+                
                     <option value="chrome">Chrome</option>
                     <option value="opera">Opera</option>
                     <option value="mozilla">Mozilla</option>
                     <option value="internet">Internet</option>
-                </select>
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
-                <label for="">List the places you have lived</label>
-                <textarea name="" id="" cols="15" rows="5" placeholder="Maracay"></textarea>
+                    </select>
+                </div>   
+                
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                
+                <div class="form-item">
+                    <label for="">List the places you have lived</label>
+                    <textarea name="" id="" cols="15" rows="5" placeholder="Maracay"></textarea>
+                </div>
+                
             </fieldset> 
             
             <button type="submit">Submit Poll</button>
