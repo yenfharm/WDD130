@@ -162,3 +162,43 @@ footer {
 .sociallinks a {
     text-decoration: none;
 }
+
+
+
+form {
+    width: 550px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: .8rem;
+    background-color: rgb(168, 188, 187);
+    display: grid;
+}
+
+label, input, button, select, textarea {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+    /* text-align: center; */
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    /* padding: 1rem; */
+    font-size: .9rem;
+}
+
+button {
+    margin: 1px;
+    background-color: rgb(30, 29, 139);
+    color: rgb(255, 255, 255);
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1rem;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(68, 86, 161);
+}
