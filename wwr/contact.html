@@ -6,7 +6,7 @@
     <title>Contact us</title>
     <meta name="description" content="It's help to the people to contact us">
     <meta name="author" content="Yenfhael Armas">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contact.css">
 </head>
 <body>
 
@@ -15,7 +15,7 @@
         <nav>
             <ul class="menu">
                 <li><a href="">Index</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">About</a><li>
                 <li><a href="">Trips</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
@@ -49,13 +49,46 @@
         </figure>
 
         <figure>
-        <img src="images/image5.jpg" class="img3" alt="adventures">
+        <img src="images/image7.jpg" class="img3" alt="adventures">
         <figcaption>Hellow</figcaption>
         </figure>
     </section>
 
 
     </main>
+
+
+    <form>
+
+        <h3>Please enter the following information</h3>
+
+
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+
+        <label for="purpose">Purpose</label>
+        <select name="purpose" id="purpose">
+            <option value="" selected disabled>Choose one ...</option>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Reservation Question">Reservation Question</option>
+            <option value="Website Suggestion">Website Suggestion</option>
+        </select>
+
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <div class="check">
+            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            <input type="checkbox" name="subscribe" id="subscribe">
+        </div>
+        
+
+    <button type="sumit">Submit Information</button>
+    </form>
 
 
     <footer>
