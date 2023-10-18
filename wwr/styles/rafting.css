@@ -22,23 +22,17 @@ header {
     justify-content: center;
 }
 
-nav {
-    text-align: right;
-}
 
 .menu {
     display: flex;
     list-style: none;
 }
 
-.menu li {
-    flex: 1 1 100%;
-}
-
 .menu a {
-    display:flex;
-	color: navy;
+    display:block;
+	color: rgb(0, 0, 0);
 	padding: 50px;
+    text-align: center;
 }
 
 header nav a:hover {
