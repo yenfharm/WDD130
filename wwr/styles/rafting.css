@@ -186,3 +186,25 @@ button {
 button:hover {
     background-color: rgb(68, 86, 161);
 }
+
+
+h1 {
+    width: 50%;
+    float: right;
+}
+
+footer article{
+    background-color: rgb(166, 177, 200);
+    place-self: center;
+    padding: 10px;
+    border-radius: .7em;
+}
+
+article a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    justify-content:center;
+}
