@@ -78,6 +78,7 @@ header nav a {
     top: 10rem;
     left: 50%;
     transform: translate(-50%, 0%);
+    display: flex;
 }
 
 .hero > article > p {
