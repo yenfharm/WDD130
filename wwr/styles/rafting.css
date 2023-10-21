@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Croissant+One&display=swap');
 
 :root {
-    --firstColor: #3a86ff;
+    --firstColor: #000000;
     --secondColor: #14213d;
     --thirdColor: #9a031e;
     --fourthColor: #ffffff;
@@ -9,7 +9,7 @@
     --primaryFont: 'Black Ops One', cursive;
     --secondaryFont: 'Croissant One', cursive;
 
-    --backgroundColor: #fb6f92;
+    --backgroundColor: #373b6a;
 }
 
 header {
@@ -59,7 +59,7 @@ header nav a {
 }
 
 .hero > .title {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgb(76 173 146 / 80%);
     text-align: center;
     width: 100%;
     line-height: 5rem;
@@ -69,7 +69,7 @@ header nav a {
 }
 
 .hero > article {
-    background-color: rgb(25 89 169 / 60%);
+    background-color: rgb(76 173 146 / 80%);
     width: 80%;
     padding: 2rem 1rem;
     margin-bottom: 6rem;
@@ -129,7 +129,7 @@ main p {
 
 
 .hero > article > p {
-    color: var(--fourthColor);
+    color: var(--firstColor);
 }
 
 
@@ -158,6 +158,7 @@ form {
     border-radius: .8rem;
     background-color: rgb(168, 188, 187);
     display: grid;
+    color: rgb(50, 44, 44);
 }
 
 label, input, button, select, textarea {
@@ -207,4 +208,40 @@ article a{
 
 footer {
     justify-content:center;
+}
+
+
+
+
+
+.home {
+    margin-bottom: 15px;
+    background-image: url(../images/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 570px;
+    position: relative;
+}
+
+.home > .title {
+    background-color: rgba(84, 177, 235, 0.8);
+    text-align: center;
+    width: 100%;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 1rem;
+    color: #ffffff;
+}
+
+
+.images {
+    display: grid;
+    justify-content: center;
+}
+
+
+h3 {
+    color: rgb(50, 44, 44);
 }
