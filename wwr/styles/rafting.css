@@ -246,3 +246,7 @@ footer {
 h3 {
     color: rgb(50, 44, 44);
 }
+
+.title {
+    display: contents;
+}
