@@ -19,7 +19,7 @@ header {
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 
@@ -58,7 +58,7 @@ header nav a {
     position: relative;
 }
 
-.hero > .title {
+/* .hero > .title {
     background-color: rgb(76 173 146 / 80%);
     text-align: center;
     width: 100%;
@@ -66,7 +66,8 @@ header nav a {
     margin-bottom: 2rem;
     position: absolute;
     top: 1rem;
-}
+} */
+
 
 .hero > article {
     background-color: rgb(76 173 146 / 80%);
@@ -75,7 +76,7 @@ header nav a {
     margin-bottom: 6rem;
     position: relative;
     height: 270px;
-    top: 10rem;
+    top: 0rem;
     left: 50%;
     transform: translate(-50%, 0%);
     display: flex;
@@ -94,22 +95,25 @@ header nav a {
     text-align: center;
 }
 
-.h2 {
+/* .h2 {
     display: flex;
     font-size: 1.5em;
     margin-block-start: 2em;
     margin-block-end: 0.83em;
     justify-content: center;
-}
+    color: green;
+} */
 
 figure {
     text-align: center;
+    margin: 0px;
+    justify-self: center;
 }
 
 
 
 body {
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -133,11 +137,23 @@ main p {
     color: var(--firstColor);
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}
 
-.container{
-    display: flex;
-    flex-direction: column;
-    
+
+.container img{
+    display: grid;
+    grid-column: 1 / span 5;
+    grid-row: 1 / span 1;
+    width: 215px;
+}
+
+.img1 {
+    width: 85%;
+    left: 10px;
 }
 
 footer {
@@ -188,7 +204,6 @@ button {
 button:hover {
     background-color: rgb(68, 86, 161);
 }
-
 
 h1 {
     width: 50%;
@@ -272,6 +287,16 @@ h3 {
 }
 
 a{
-    color: rgb(29, 31, 154);
+    color: rgb(18, 19, 94);
 }
   
+h4 {
+    font-size: -webkit-xxx-large;
+    width: 100%;
+    float: right;
+    background-color: rgb(76 173 146 / 80%);
+    text-align: center;
+    top: 0rem;
+    position: relative;
+    color: var(--backgroundColor);
+}
