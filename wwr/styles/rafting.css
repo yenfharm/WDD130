@@ -258,3 +258,20 @@ h3 {
 .title {
     display: contents;
 }
+
+
+.cta {
+    width: 50%;
+    height: auto;
+    border: 2px solid black;
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
+    place-self: center;
+    border-radius: 10px;
+}
+
+a{
+    color: rgb(29, 31, 154);
+}
+  
