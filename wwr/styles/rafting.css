@@ -203,14 +203,14 @@ h5 {
     text-align: center;
 }
 
-footer article{
+.link{
     background-color: rgb(166, 177, 200);
     place-self: center;
     padding: 10px;
     border-radius: .7em;
 }
 
-article a{
+.link a{
     text-decoration: none;
     color: black;
 }
@@ -292,3 +292,4 @@ figcaption {
         margin-top: 0px;
         margin-bottom: 15px;    
 }
+
